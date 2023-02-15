@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Новости автошколы</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<style>
+		body {
+			background-color: #f1f1f1;
+			font-family: 'Montserrat', sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 20px;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+		h1 {
+			text-align: center;
+			margin-left: auto ;
+			margin-top: 10px;
+			padding-bottom: 200px;
+		}
+		.news-list {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			margin-top: 100px;
+			padding: 0;
+			list-style: none;
+		}
+		.news-list li {
+			width: calc(33.33% - 20px);
+			margin-bottom: 40px;
+			border-radius: 10px;
+			overflow: hidden;
+			box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+			transition: transform 0.2s ease-in-out;
+		}
+		.news-list li:hover {
+			transform: translateY(-5px);
+			box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+		}
+		.news-list img {
+			width: 100%;
+			height: 200px;
+			object-fit: cover;
+			object-position: center center;
+			border-radius: 10px 10px 0 0;
+		}
+		.news-list h2 {
+			font-size: 24px;
+			font-weight: bold;
+			margin: 20px;
+			color: #333;
+			text-align: center;
+			line-height: 1.2;
+		}
+		.news-list p {
+			font-size: 18px;
+			margin: 20px;
+			color: #666;
+			text-align: justify;
+			line-height: 1.4;
+		}
+		.header {
+			background-color: #333;
+			color: #fff;
+			display: flex;
+			justify-content: flex-end;
+			padding: 10px;
+		}
+		.header a {
+			color: #fff;
+			margin-left: 20px;
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+				 <a class="nav__link" href="../практика2/glav.html">Главная</a>
+		         <a class="nav__link" href="../практика2/news.html">Новости</a>
+		         <a class="nav__link" href="../практика2/kontact.html">Контакты</a>
+		         <a class="nav__link" href="../практика2/team.html">Инструкторы</a>
+	</div>
+	<div class="container">
+
+		<ul class="news-list">
+			<li>
+				<img src="https://via.placeholder.com/800x500" alt="Новость 1">
+				<div>
+					<h2>Открытие нового филиала</h2>
+										<p>Мы рады сообщить, что открыли новый филиал автошколы в центре города. Теперь вы можете получить права в удобном месте, где есть хорошая транспортная доступность и удобный расписание занятий. В нашем новом филиале вы найдете высококвалифицированных инструкторов и современный автопарк. Приглашаем всех желающих посетить наш новый филиал.</p>
+				</div>
+			</li>
+			<li>
+				<img src="https://via.placeholder.com/800x500" alt="Новость 2">
+				<div>
+					<h2>Новый курс обучения для водителей грузовиков</h2>
+					<p>Автошкола запускает новый курс обучения для водителей грузовиков. Курс включает в себя теоретические и практические занятия, а также подготовку к экзаменам в ГИБДД. Обучение проводят высококвалифицированные инструкторы с многолетним опытом работы в автошколе. В результате обучения вы получите права на вождение грузовиков и уверенность на дороге.</p>
+				</div>
+			</li>
+			<li>
+				<img src="https://via.placeholder.com/800x500" alt="Новость 3">
+				<div>
+					<h2>Акция для новых клиентов</h2>
+					<p>С 1 марта по 31 марта автошкола проводит акцию для новых клиентов. При оплате полного курса обучения вы получите скидку 10%. Акция распространяется на все виды обучения в автошколе, включая подготовку к экзаменам и дополнительные занятия. Успейте воспользоваться выгодным предложением!</p>
+
+					<div>
+					<h2>Открытие нового филиала</h2>
+										<p>Мы рады сообщить, что открыли новый филиал автошколы в центре города. Теперь вы можете получить права в удобном месте, где есть хорошая транспортная доступность и удобный расписание занятий. В нашем новом филиале вы найдете высококвалифицированных инструкторов и современный автопарк. Приглашаем всех желающих посетить наш новый филиал.</p>
+				</div>
+			</li>
+			<li>
+				<img src="https://via.placeholder.com/800x500" alt="Новость 2">
+				<div>
+					<h2>Новый курс обучения для водителей грузовиков</h2>
+					<p>Автошкола запускает новый курс обучения для водителей грузовиков. Курс включает в себя теоретические и практические занятия, а также подготовку к экзаменам в ГИБДД. Обучение проводят высококвалифицированные инструкторы с многолетним опытом работы в автошколе. В результате обучения вы получите права на вождение грузовиков и уверенность на дороге.</p>
+				</div>
+			</li>
+			<li>
+				<img src="https://via.placeholder.com/800x500" alt="Новость 3">
+				<div>
+					<h2>Акция для новых клиентов</h2>
+					<p>С 1 марта по 31 марта автошкола проводит акцию для новых клиентов. При оплате полного курса обучения вы получите скидку 10%. Акция распространяется на все виды обучения в автошколе, включая подготовку к экзаменам и дополнительные занятия. Успейте воспользоваться выгодным предложением!</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
+
